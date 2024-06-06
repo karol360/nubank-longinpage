@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+header img{
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 5000;
+    position: absolute;
+    top: 38px;
+    left: 160px;
+    background-image: linear-gradient(to right, #9B50B9, #610785);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+
+header ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 60px;
+    position: absolute;
+    top: 51px;
+    left: 1200px;
+
+}
+
+header ul li{
+    padding: 8px 0;
+
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #9B50B9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 10px;
+    
+}
+.waves{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9B50B9;
+    clip-path: circle(50% at bottom right);
+}
+.waves2{
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9B50B9;
+    clip-path: circle(20% at right);
+}
+.waves3{
+    position: absolute;
+    top: 0px;
+    left: 840px;
+    width: 100%;
+    height: 100%;
+    background-color: #9B50B9;
+    clip-path: circle(8% at top);
+}
+
+
+
+
+.waves1-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #A45FBF;
+    clip-path: circle(40% at bottom right);
+}
+.waves2-2{
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #A45FBF;
+    clip-path: circle(15% at right);
+}
+.waves3-3{
+    position: absolute;
+    top: 0px;
+    left: 840px;
+    width: 100%;
+    height: 100%;
+    background-color: #A45FBF;
+    clip-path: circle(4% at top);
+}
+
+
+.waves1-1-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #AC6DC5;
+    clip-path: circle(35% at bottom right);
+}
+.waves2-2-2{
+    position: absolute;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #AC6DC5;
+    clip-path: circle(10% at right);
+}
+
+.waves3-3-3{
+    position: absolute;
+    top: 0px;
+    left: 840px;
+    width: 100%;
+    height: 100%;
+    background-color: #AC6DC5;
+    clip-path: circle(1% at top);
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    background-image: linear-gradient(to right, #9B50B9, #610785);
+    -webkit-background-clip: text;
+    color: transparent;   
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    left: 55px;
+    background-image: linear-gradient(to right, #9B50B9, #610785);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+
+.email{
+    position: absolute;
+    width: 15%;
+    top: 350px;
+    left: 100px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 0 30px 0 68px;
+    border: 0;
+    background: #A45FBF; 
+    display: flex;
+    align-items: center;
+}
+
+
+.senha{
+    position: absolute;
+    width: 15%;
+    top: 420px;
+    left: 100px;
+    height: 50px;
+    border-radius: 50px;  
+    background: #A45FBF; 
+    padding: 0 30px 0 68px;
+    border: 0;
+    display: flex;
+    align-items: center;
+}
+
+.email input{
+    flex:5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email input::placeholder{
+    color: #fff;
+}
+
+.senha input{
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.senha input::placeholder{
+    color: #fff;
+}
+
+.entrar{
+    position: absolute;
+    width: 5%;
+    top: 500px;
+    left: 100px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 0 30px 0 68px;
+    border: 0;
+    background: #A45FBF; 
+    display: flex;
+    align-items: center;
+}
+
+.entrar button{
+    flex: 5;
+    background: none;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+ul a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: #A45FBF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+ul a:hover::after{
+    width: 100%;
+}
+
+.entrar:hover{
+    background-color: #ac7bc0;
+}
+
+.link{
+    position: absolute;
+    top: 565px;
+    left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
